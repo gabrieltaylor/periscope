@@ -1,10 +1,10 @@
-require "factory_girl"
+require "factory_bot"
 
 RSpec.configure do |config|
-  config.include(FactoryGirl::Syntax::Methods)
+  config.include(FactoryBot::Syntax::Methods)
 end
 
-FactoryGirl.define do
+FactoryBot.define do
   factory :user do
     gender { %w(male female)[rand(2)] }
     salary { rand(1_000_001) }

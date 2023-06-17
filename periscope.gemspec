@@ -10,8 +10,8 @@ Gem::Specification.new do |gem|
   gem.homepage = "https://github.com/laserlemon/periscope"
   gem.license  = "MIT"
 
-  gem.add_development_dependency "bundler", "~> 2.0"
-  gem.add_development_dependency "rake", "~> 10.5"
+  gem.add_development_dependency "bundler", "~> 2"
+  gem.add_development_dependency "rake", "~> 13"
 
   gem.files = %w(
     lib/periscope.rb
