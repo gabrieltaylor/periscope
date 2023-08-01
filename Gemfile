@@ -4,7 +4,6 @@ gemspec name: "periscope"
 gemspec name: "periscope-activerecord"
 
 group :test do
-  gem "codeclimate-test-reporter", require: false
   gem "database_cleaner"
   gem "factory_bot"
   gem "rspec"
