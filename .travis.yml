@@ -15,9 +15,6 @@ gemfile:
   - gemfiles/active_record/5-2.gemfile
   - gemfiles/active_record/6-0.gemfile
   - gemfiles/active_record/6-1.gemfile
-  - gemfiles/mongoid/6-4.gemfile
-  - gemfiles/mongoid/7-1.gemfile
-  - gemfiles/mongoid/7-1.gemfile
 language: ruby
 matrix:
   allow_failures:
@@ -26,5 +23,4 @@ rvm:
   - 2.6.5
   - ruby-head
 script: bundle exec rspec
-services: mongodb
 sudo: false

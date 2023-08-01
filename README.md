@@ -13,7 +13,6 @@ Periscope provides a simple way to chain scopes on your models and to open those
 Periscope sits on top of your favorite ORM. Currently, the following ORMs are supported through individual gems extending Periscope:
 
 * Active Record ([periscope-activerecord](https://rubygems.org/gems/periscope-activerecord))
-* Mongoid ([periscope-mongoid](https://rubygems.org/gems/periscope-mongoid))
 
 Simply add the gem to your bundle and you're off!
 
