@@ -9,7 +9,7 @@ jobs:
           - 3.2
         gemfile:
           - 6-1
-          - 7-1
+          - 7-0
     env:
       BUNDLE_GEMFILE: ${{ github.workspace }}/gemfiles/active_record/${{ matrix.gemfile }}.gemfile
     steps:
